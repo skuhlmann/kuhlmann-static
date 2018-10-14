@@ -1,0 +1,19 @@
+@import '../../../styles/variables';
+
+.LinkMenu {
+  margin: 0 auto;
+  padding: 3rem 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: $bg-cream;
+
+  @media all and (max-width: $tablet) {
+    padding: 3rem 3rem;
+  }
+}
+
+.LinkMenu__link {
+  margin-left: 3em;
+}

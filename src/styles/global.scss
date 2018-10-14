@@ -1,0 +1,24 @@
+@import 'variables';
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: $base-font;
+  font-size: 16px;
+  line-height: 1.75em;
+  background-color: $bg-grey;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+  color: $od-primary;
+}
+
+a {
+  text-decoration: none;
+  color: $od-light-purple;
+}
+
+a:hover {
+  color: $od-primary;
+}
