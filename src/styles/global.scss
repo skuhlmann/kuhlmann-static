@@ -22,3 +22,16 @@ a {
 a:hover {
   color: $od-primary;
 }
+
+a.button {
+  display: inline-block;
+  border: 2px solid $od-light-purple;
+  color: $od-light-purple;
+  padding: 5px 20px;
+  margin: 25px auto;
+}
+
+a.button:hover {
+  color: $od-primary;
+  border-color: $od-primary;
+}

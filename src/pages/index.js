@@ -12,9 +12,9 @@ const IndexPage = () => (
         <p>I'm a software developer. I like delivering high quality applications solving human and business problems.</p>
       </div>
       <div className="Home__block Home__block--work">
-        <p>Founder and Development over at <a href="https://odyssy.io">Odyssy</a></p>
+        <p>Founder and Development at <a href="https://odyssy.io">Odyssy</a></p>
         <p><a href="https://www.wanderingbloom.com">Joycean</a></p>
-        <p><a href="mailto:samkuhlmann@gmail.com">Make Contact</a></p>
+        <a className="button" href="mailto:samkuhlmann@gmail.com">Make Contact</a>
       </div>
     </div>
   </Layout>

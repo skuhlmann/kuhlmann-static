@@ -17,3 +17,7 @@
 .LinkMenu__link {
   margin-left: 3em;
 }
+
+.LinkMenu__link:hover {
+  color: $od-primary;
+}
