@@ -36,7 +36,6 @@ const Layout = ({ children }) => (
           <div className="content">
             {children}
           </div>
-
           <footer className="footer">
             <LinkMenu />
           </footer>
